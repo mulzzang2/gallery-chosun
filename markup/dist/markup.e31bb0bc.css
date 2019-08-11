@@ -373,4 +373,21 @@ body .kor {
   font-family: "Noto Sans KR", sans-serif;
 }
 
+h1 {
+  font-size: 20px;
+  font-style: bold;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
 /*# sourceMappingURL=/markup.e31bb0bc.css.map */
