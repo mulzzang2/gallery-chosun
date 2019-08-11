@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>GALLERY CHOSUN</title>
+        <style type="text/scss">
+            html{
+                body{
+                    div{
+                        max-width: 1280px;
+                        margin: auto;
+                        .current-exhibition{
+                            margin: 50px;
+                            .current-exhibition-image{
+                                display: block;
+                                margin: 0 auto;
+                                width: 647px;
+                                height: 389px;
+                                background-color: #606060;
+                            }
+                            .current-exhibition-list{
+                                display: flex;
+                                margin: auto;
+                                .current-exhibition-first-floor, .current-exhibition-second-floor{
+                                    width: 50%;
+                                    margin: 50px;
+                                }
+                                .current-exhibition-title{
+                                    font-size: 20pt;
+                                    line-height: 34pt;
+                                }
+                                .current-exhibition-artist{
+                                    font-size: 14pt;
+                                    line-height: 20pt;
+                                }
+                                .current-exhibition-date{
+                                    font-size:  14pt;
+                                    line-height: 20pt;
+                                }    
+                            }
+                        }
+                        .artist-list-preview{
+                            widows: 1280px;;
+                            margin: 50px;
+                            .artist-list-title{
+                                border-bottom: solid 0.75px #cecece;
+                            }
+                            ul{
+                                margin: 0 15px;
+                                display: flex;
+                                align-content: space-around;
+                                li{
+                                    padding: 20px;
+                                    .artist-list-thumbnail{
+                                        width: 204px;
+                                        height: 142px;
+                                        background-color: #606060;
+                                    }
+                                    .artist-name{
+                                        font-size: 20pt;
+                                        font-color: #777777;
+                                        letter-spacing: 5;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <section class="current-exhibition">
+                <img class="current-exhibition-image">
+                <ul class="current-exhibition-list">
+                    <li class="current-exhibition-first-floor">
+                        <p class="current-exhibition-title" class="kor">잃어버린 밤 <span class="eng">A NIGHT BE GONE</span></p>
+                        <p class="current-exhibition-artist" class="kor">감민경 <span class="eng">Min kyung Kam</span></p>
+                        <p class="current-exhibition-date">2019 07.18 - 08.01 </p>
+                    </li>
+                    <li class="current-exhibition-second-floor">
+                        <p class="current-exhibition-title" class="eng"> VIEWING ROOM</p>
+                        <p class="current-exhibition-artist" class="kor">그룹전</p>
+                        <p class="current-exhibition-date">2019 07.20 - 08.20</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="artist-list-preview">
+                <p class="artist-list-title" class="eng">ARTIST</p>
+                <ul>
+                    <li>
+                        <img class="artist-list-thumbnail">
+                        <p class="artist-name" class="kor">김민호
+                            <p class="eng">MIN HO KIM</p>
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <img class="artist-list-thumbnail">
+                        <p class="artist-name" class="kor">김성은
+                            <p class="eng">SUNG EUN PARK</p>
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <img class="artist-list-thumbnail">
+                        <p class="artist-name" class="kor">최수인
+                            <p class="eng">SU IN CHOI</p>
+                        </p>
+                        
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
