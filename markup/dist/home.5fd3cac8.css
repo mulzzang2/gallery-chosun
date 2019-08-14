@@ -375,19 +375,11 @@ body .kor {
 
 h1 {
   font-size: 20px;
-  font-style: bold;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 18px;
-}
-
-h3 {
-  font-size: 16px;
-}
-
-h4 {
-  font-size: 14px;
 }
 html body div {
   max-width: 1380px;
@@ -413,7 +405,7 @@ html body div .current-exhibition .current-exhibition-list .current-exhibition-f
   margin: 50px;
 }
 html body div .current-exhibition .current-exhibition-list .current-exhibition-second-floor {
-  border-left: solid 0.75px #cecece;
+  border-left: solid 1px #cecece;
   padding-left: 30px;
 }
 html body div .current-exhibition .current-exhibition-list .current-exhibition-title {
@@ -423,7 +415,7 @@ html body div .current-exhibition .current-exhibition-list .current-exhibition-a
   line-height: 2;
 }
 html body div .artist-list-preview {
-  padding: 0 10%;
+  padding: 0 10% 10% 10%;
 }
 html body div .artist-list-preview .artist-list-title {
   width: 100%;
@@ -435,6 +427,9 @@ html body div .artist-list-preview .artist-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+html body div .artist-list-preview .artist-list li {
+  flex: 0 1 auto;
 }
 html body div .artist-list-preview .artist-list li .artist-list-thumbnail {
   width: 250px;

@@ -36,7 +36,7 @@ html{
                 }
             }
             .artist-list-preview{
-                padding: 0 10%;
+                padding: 0 10% 10% 10%;
                 .artist-list-title{
                     width: 100%;
                     border-bottom: solid 0.75px #cecece;
@@ -48,13 +48,13 @@ html{
                     justify-content: space-between;
                     flex-wrap: wrap;
                     li{
+                        flex: 0 1 auto;
                         .artist-list-thumbnail{
                             width: 250px;
                             height: 180px;
                             background-color: #606060;
                         }
                         .artist-name{
-                            
                             font-color: #777777;
                             letter-spacing: 0.5;
                             padding-top: 8px;

@@ -1,0 +1,39 @@
+html{
+    body{
+        div{
+            h2{
+                padding-bottom: 20px;
+            }
+            max-width: 1380px;
+            padding: 0px 50px;
+            margin:auto;
+            .gallery-article{
+                width: 600px;
+                float: left;
+                img{
+                    width: 400px;
+                    height: 300px;
+
+                }
+                article{
+
+                }
+
+            }
+            .gallery-information{
+                width: 600px;
+                float: right;
+                .address{
+                    width: 400px;
+                    height: 300px;
+                    background-color: #606060;
+                }
+                .gallery-information-list{
+                    li{
+
+                    }
+                }
+            }
+        }
+    }
+}
