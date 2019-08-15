@@ -189,18 +189,18 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"scss/home.scss":[function(require,module,exports) {
+},{"_css_loader":"../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"scss/exhibition_search2.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/home.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/exhibition_search2.js":[function(require,module,exports) {
 "use strict";
 
 require("../scss/common.scss");
 
-require("../scss/home.scss");
-},{"../scss/common.scss":"scss/common.scss","../scss/home.scss":"scss/home.scss"}],"../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("../scss/exhibition_search2.scss");
+},{"../scss/common.scss":"scss/common.scss","../scss/exhibition_search2.scss":"scss/exhibition_search2.scss"}],"../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -228,7 +228,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63772" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52229" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -403,5 +403,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/home.js"], null)
-//# sourceMappingURL=/home.5fd3cac8.js.map
+},{}]},{},["../../../../../../../../home/gummming/.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/exhibition_search2.js"], null)
+//# sourceMappingURL=/exhibition_search2.a4f100ae.js.map

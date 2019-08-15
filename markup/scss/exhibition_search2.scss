@@ -46,7 +46,7 @@ html{
                 }
                 .past-exhibition-title-list{                                
                     width: 100%;
-                    margin: 80px 0px 60px 0px;
+                    margin: 80px 0px 120px 0px;
                     padding-bottom: 20px;
                     border-bottom: 0.75px solid #cecece;
                     li{
@@ -65,33 +65,9 @@ html{
                         float: right;
                     }
                 }
-                
-                .past-exhibition-list{
-                    display: flex;
-                    justify-content: space-between;
-                    flex-wrap: wrap;	
-                    .past-exhibition-item{
-                        width:240px;
-                        height: 290px;
-                        margin-bottom: 136px;
-                        .past-exhibition-thumbnail{
-                            width: 240px;
-                            height: 195px;
-                            margin-bottom: 16px;
-                        }
-                        .exhibition-name{
-                            margin-bottom: 32px;
-                        }
-                        .artist-name{
-                            color: #777777;
-                            font-size: 14px;
-                            margin-bottom: 6px;
-                        }
-                        .period{
-                             color: #777777;
-                             font-size: 14px;
-                        }
-                    }
+                .no-found{
+                    text-align: center;
+                    color: #777777
                 }
             }
         }

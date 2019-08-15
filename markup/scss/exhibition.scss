@@ -53,8 +53,8 @@ html{
                         display: inline-block;
                     }
                     .past-exhibition-title{
-                    color: #777777;
-                    font-size: 20px;
+                        color: #777777;
+                        font-size: 20px;
                     }
                     .gallery{ 
                         float: right;
@@ -73,13 +73,24 @@ html{
                     .past-exhibition-item{
                         width:240px;
                         height: 290px;
-                        margin-bottom: 140px;
+                        margin-bottom: 136px;
                         .past-exhibition-thumbnail{
                             width: 240px;
                             height: 195px;
-                            margin-bottom: 20px;
+                            margin-bottom: 16px;
                         }
-
+                        .exhibition-name{
+                            margin-bottom: 32px;
+                        }
+                        .artist-name{
+                           color: #777777;
+                           font-size: 14px;
+                           margin-bottom: 6px;
+                        }
+                        .period{
+                            color: #777777;
+                            font-size: 14px;
+                        }
                     }
                 }
             }

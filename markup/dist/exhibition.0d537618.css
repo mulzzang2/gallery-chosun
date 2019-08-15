@@ -453,12 +453,24 @@ html body div .past-exhibition-preview .past-exhibition-list {
 html body div .past-exhibition-preview .past-exhibition-list .past-exhibition-item {
   width: 240px;
   height: 290px;
-  margin-bottom: 140px;
+  margin-bottom: 136px;
 }
 html body div .past-exhibition-preview .past-exhibition-list .past-exhibition-item .past-exhibition-thumbnail {
   width: 240px;
   height: 195px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+}
+html body div .past-exhibition-preview .past-exhibition-list .past-exhibition-item .exhibition-name {
+  margin-bottom: 32px;
+}
+html body div .past-exhibition-preview .past-exhibition-list .past-exhibition-item .artist-name {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+html body div .past-exhibition-preview .past-exhibition-list .past-exhibition-item .period {
+  color: #777777;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=/exhibition.0d537618.css.map */

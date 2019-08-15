@@ -381,44 +381,73 @@ h1 {
 h2 {
   font-size: 18px;
 }
-html {
-  min-height: 100%;
-  margin: 0;
-  max-width: 1280px;
+html body div {
+  max-width: 1380px;
+  padding: 0px 50px;
+  margin: auto;
 }
-html body {
-  min-height: 100%;
+html body div .current-exhibition {
+  padding: 0 10%;
 }
-html body footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 45px;
-  text-align: center;
+html body div .current-exhibition .current-exhibition-image {
+  width: 900px;
+  height: 780px;
+  display: block;
+  margin: 0 auto;
+  background-color: #606060;
 }
-html body footer ul {
-  margin: 0;
+html body div .current-exhibition .current-exhibition-list {
+  display: flex;
+  margin: auto;
+}
+html body div .current-exhibition .current-exhibition-list .current-exhibition-first-floor, html body div .current-exhibition .current-exhibition-list .current-exhibition-second-floor {
+  width: 50%;
+  margin: 50px;
+}
+html body div .current-exhibition .current-exhibition-list .current-exhibition-second-floor {
+  border-left: solid 1px #cecece;
+  padding-left: 30px;
+}
+html body div .current-exhibition .current-exhibition-list .current-exhibition-title {
+  padding-bottom: 14px;
+}
+html body div .current-exhibition .current-exhibition-list .current-exhibition-artist {
+  line-height: 2;
+}
+html body div .past-exhibition-preview {
+  padding: 10%;
+}
+html body div .past-exhibition-preview .search-bar {
+  border: 0.75px solid #cecece;
+  width: 220px;
+  height: 20px;
   padding: 0;
+  margin: 0;
+}
+html body div .past-exhibition-preview .past-exhibition-title-list {
+  width: 100%;
+  margin: 80px 0px 120px 0px;
+  padding-bottom: 20px;
+  border-bottom: 0.75px solid #cecece;
+}
+html body div .past-exhibition-preview .past-exhibition-title-list li {
+  display: inline-block;
+}
+html body div .past-exhibition-preview .past-exhibition-title-list .past-exhibition-title {
+  color: #777777;
+  font-size: 20px;
+}
+html body div .past-exhibition-preview .past-exhibition-title-list .gallery {
+  float: right;
+  margin-right: 20px;
+}
+html body div .past-exhibition-preview .past-exhibition-title-list .viewing {
+  color: #777777;
+  float: right;
+}
+html body div .past-exhibition-preview .no-found {
   text-align: center;
-  font-size: 14px;
   color: #777777;
 }
-html body footer ul li {
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-html body footer ul li img {
-  width: 12px;
-  height: 12px;
-}
-html body footer ul li .social {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-html body footer ul li .open {
-  padding-right: 15px;
-}
 
-/*# sourceMappingURL=/footer.e340dbc0.css.map */
+/*# sourceMappingURL=/exhibition_search2.a4f100ae.css.map */
