@@ -371,6 +371,7 @@ body .eng {
 }
 body .kor {
   font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
 }
 
 h1 {
@@ -380,6 +381,7 @@ h1 {
 
 h2 {
   font-size: 18px;
+  letter-spacing: 0.5;
 }
 html body div {
   max-width: 1380px;
