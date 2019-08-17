@@ -405,6 +405,7 @@ html body div .gallery-article .main-image {
 html body div .gallery-article article {
   letter-spacing: 0.5;
   line-height: 1.5;
+  text-align: justify;
 }
 html body div .gallery-article article p {
   padding-bottom: 30px;
@@ -415,8 +416,8 @@ html body div .gallery-information {
   float: right;
 }
 html body div .gallery-information .address {
+  width: 100%;
   height: 400px;
-  background-color: #606060;
 }
 html body div .gallery-information .gallery-information-list .gallery-information-item {
   float: left;
