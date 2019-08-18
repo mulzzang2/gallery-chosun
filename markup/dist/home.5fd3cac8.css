@@ -387,12 +387,13 @@ html body div {
   max-width: 1380px;
   padding: 0 50px;
   margin: auto;
+  margin-top: 100px;
 }
 html body div .current-exhibition {
   padding: 0 10%;
 }
 html body div .current-exhibition .current-exhibition-image {
-  width: 900px;
+  width: 100%;
   height: 780px;
   display: block;
   margin: 0 auto;
@@ -431,11 +432,13 @@ html body div .artist-list-preview .artist-list {
   flex-wrap: wrap;
 }
 html body div .artist-list-preview .artist-list li {
+  width: 33.3%;
+  margin-bottom: 30px;
   flex: 0 1 auto;
 }
 html body div .artist-list-preview .artist-list li .artist-list-thumbnail {
-  width: 250px;
-  height: 180px;
+  width: 90%;
+  height: 200px;
   background-color: #606060;
 }
 html body div .artist-list-preview .artist-list li .artist-name {
