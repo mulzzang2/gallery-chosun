@@ -4,10 +4,11 @@ html{
             max-width: 1380px;
             padding: 0 50px;
             margin: auto;
+            margin-top: 100px;
             .current-exhibition{
                 padding: 0 10%;
                 .current-exhibition-image{
-                    width: 900px;
+                    width: 100%;
                     height: 780px;
                     display: block;
                     margin: 0 auto;
@@ -48,10 +49,12 @@ html{
                     justify-content: space-between;
                     flex-wrap: wrap;
                     li{
+                        width: 33.3%;
+                        margin-bottom: 30px;
                         flex: 0 1 auto;
                         .artist-list-thumbnail{
-                            width: 250px;
-                            height: 180px;
+                            width: 90%;
+                            height: 200px;
                             background-color: #606060;
                         }
                         .artist-name{
